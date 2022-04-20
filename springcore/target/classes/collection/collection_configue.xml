@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+    
+  <bean name="emp1" class="collection.Emp">
+  	<property name="name" value="Radhe-Radhe"/>
+<property name="phones">
+      <list>
+         <value>7534050774</value>
+          <value>8534931380</value>
+         <value>8057830417</value>
+         <value>9760492166</value>
+         <null/>
+         </list>
+         </property>
+         <property name="addresses">
+      <set>
+         <value>Delhi</value>
+          <value>Kotdwara</value>
+         <value>Dhampur</value>
+         <value>noida</value>
+  
+         
+         </set>
+         </property>
+         
+         
+         <property name="courses">
+  <map>
+  <entry key="java" value="1month"/>
+  <entry key="python" value="2month"/>
+  <entry key="c" value="3month"/>
+  	
+  
+  </map>
+  </property>
+         
+       <property name="props">
+  <props>
+  <prop key="name">Monu</prop>
+  <prop key="Postname">Tester</prop>
+  </props>
+  </property>
+     
+  	
+  </bean>    	 
+
+   
+    
+
+</beans>
+
